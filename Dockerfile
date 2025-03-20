@@ -4,4 +4,6 @@ ENV DEVELOPER_MODE=1
 
 EXPOSE 8000
 
-CMD ["bench", "start"]
+COPY Procfile /home/frappe/frappe-bench/
+
+WORKDIR /home/frappe/frappe-bench
