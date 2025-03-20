@@ -1,1 +1,1 @@
-web: bench start --port $PORT
+web: cd /home/frappe/frappe-bench && bench start
